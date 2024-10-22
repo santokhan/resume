@@ -155,7 +155,7 @@ const ApplicantInfo = () => {
               <img
                 src="passport-size.jpg"
                 alt="Passport Size Photo"
-                className="size-[280px] rounded-xl"
+                className="w-full min-w-[280px] max-w-[280px] aspect-square rounded-xl"
               />
               <div className="flex justify-center">
                 <a
