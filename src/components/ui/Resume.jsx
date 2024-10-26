@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import CopyButton from "../shared/CopyButton";
 
 const applicant = {
@@ -74,7 +74,7 @@ const ApplicantInfo = () => {
       <h1 className="text-2xl font-bold mb-2">Applicant Information</h1>
       <div className="grid grid-cols-1 gap-4">
         <div className="flex flex-wrap gap-8 justify-between">
-          <div className="order-2 lg:order-1">
+          <div className="order-2 md:order-1">
             <div className="py-4 shadow-md rounded-md space-y-2">
               <h2 className="font-semibold">
                 Name:{" "}
@@ -84,12 +84,12 @@ const ApplicantInfo = () => {
                 />
               </h2>
               <p>
-                Father's Name:{" "}
+                Father&apos;s Name:{" "}
                 <Value text={applicant.applicant_information.father_name} />{" "}
                 <Value text={applicant.applicant_information.father_name_bn} />
               </p>
               <p>
-                Mother's Name:{" "}
+                Mother&apos;s Name:{" "}
                 <Value text={applicant.applicant_information.mother_name} />{" "}
                 <Value text={applicant.applicant_information.mother_name_bn} />
               </p>
@@ -150,7 +150,7 @@ const ApplicantInfo = () => {
               </p>
             </div>
           </div>
-          <div className="order-1 lg:order-2">
+          <div className="order-1 md:order-2">
             <div className="sticky right-0 top-0">
               <img
                 src="passport-size.jpg"
