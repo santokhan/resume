@@ -151,22 +151,40 @@ const ApplicantInfo = () => {
             </div>
           </div>
           <div className="order-1 md:order-2">
-            <div className="sticky right-0 top-0">
+            <div className="sticky right-0 top-0 space-y-6">
+             <div>
               <img
-                src="passport-size.jpg"
-                alt="Passport Size Photo"
-                className="w-full min-w-[280px] max-w-[280px] aspect-square rounded-xl"
-              />
-              <div className="flex justify-center">
-                <a
-                  href={"passport-size.jpg"}
-                  download
-                  className="mt-4 px-2.5 py-1.5 rounded-md bg-blue-500 text-white"
-                >
-                  Download
-                </a>
+                  src="passport-size.jpg"
+                  alt="Passport Size Photo"
+                  className="w-full min-w-[280px] max-w-[280px] aspect-square rounded-xl"
+                />
+                <div className="flex justify-center">
+                  <a
+                    href={"passport-size.jpg"}
+                    download
+                    className="mt-4 px-2.5 py-1.5 rounded-md bg-blue-500 text-white"
+                  >
+                    Download
+                  </a>
+                </div>
+             </div>
+             <div>
+                <img
+                  src="santo-digital-signature.jpg"
+                  alt="Passport Size Photo"
+                  className="w-full min-w-[280px] max-w-[280px] rounded-xl"
+                />
+                <div className="flex justify-center">
+                  <a
+                    href="santo-digital-signature.jpg"
+                    download
+                    className="mt-4 px-2.5 py-1.5 rounded-md bg-blue-500 text-white"
+                  >
+                    Download
+                  </a>
+                </div>
               </div>
-            </div>
+             </div>
           </div>
         </div>
 
