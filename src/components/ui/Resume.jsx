@@ -10,7 +10,6 @@ const applicant = {
     mother_name: "BILKIS BEGUM",
     mother_name_bn: "বিলকিস বেগম",
     date_of_birth: "9 Mar 1999",
-    nationality: "Bangladeshi",
     nid: "6904095970",
     passport: "EF 0712389",
     email: "inbox.santo@gmail.com",
@@ -98,10 +97,6 @@ const ApplicantInfo = () => {
                 <Value text={applicant.applicant_information.date_of_birth} />
               </p>
               <p>
-                Nationality:{" "}
-                <Value text={applicant.applicant_information.nationality} />
-              </p>
-              <p>
                 NID: <Value text={applicant.applicant_information.nid} />
               </p>
               <p>
@@ -135,7 +130,7 @@ const ApplicantInfo = () => {
                 Village: <Value text={applicant.care_of.address.village} />
               </p>
               <p>
-                Sub District:{" "}
+                Upazila:{" "}
                 <Value text={applicant.care_of.address.sub_district} />
               </p>
               <p>
